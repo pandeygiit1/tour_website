@@ -1,0 +1,137 @@
+.Privacy-section{
+    /* box-sizing: border-box; */
+    display: flex;
+    background-color: #fff;
+}
+
+.Privacycontainer {
+    padding-left: 30px;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+} 
+/* 
+.Privacyrow {
+    /* display: flex; */
+
+.Privacy-col-8{
+    width: 100%;
+    /* text-align: center; */
+}
+.Privacy-rn-faq-item{
+    display: flex;
+    margin-bottom: 40px;
+    /* background-color: #00D231; */
+    width: 100%;
+}
+.Privacy-rn-faq-icon {
+    padding-right: 20px;
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    position: relative;
+    text-align: center;
+    color: #fff;
+}
+.Privacy-rn-faq-item i::after{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 28px;
+    height: 28px;
+    margin-right: 20px;
+    background-color: #00D231;
+    border-radius: 20px 20px 0 20px;
+    transform: rotate(-45deg); 
+}
+.Privacy-rn-faq-item i::before{
+    line-height: 28px;
+    position: relative;
+    z-index: 1; 
+}
+.fabs{
+    font-size: 800;
+    padding-left: 9px;
+    margin-top: -3px;
+}
+.Privacy-rn-faq-content {
+    flex: 1 1 0;
+}
+.Privacy-rn-faq-title {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    font-family: "Poppins", sans-serif;
+    color: #112E3B;
+}
+.Privacy-rn-faq-peregraf{
+    font-size: 17px ;
+    font-family: "Poppins", sans-serif;
+    color: #2c4555;
+    font-weight: 300;
+    margin-left: 20px;
+    text-align: justify;
+}
+.Privacy-col-4{
+    position: relative;
+    width:100%;
+    padding-right: 10px;
+    padding-top: 50px;
+    padding-left: 10px;
+}
+.Privacy-rn-widget-area{
+    padding-left: 30px;
+   
+}
+.Privacy-rn-widget{
+    margin-bottom: 40px;
+}
+.Privacy-rn-widget-content{
+    box-sizing: border-box;
+}
+
+
+.rn-support-widget {
+    padding: 30px;
+    border: 1px solid #dfd2d2;
+    box-shadow: 0 0 20px 0 #e8ece7;
+    text-align: center;
+}
+
+.rn-support-widget i {
+    font-size: 70px;
+    font-size: 5rem;
+    color: #00D231;
+    margin-bottom: 30px;
+}
+.far {
+    font-weight: 400;
+}
+
+.rn-support-widget-title {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+    font-family: "Poppins", sans-serif;
+    color: #112E3B;
+}
+
+.Privacy-rn-faq-title-peregra{
+    font-size: 17px ;
+    font-family: "Poppins", sans-serif;
+    color: #2c4555;
+    font-weight: 400;
+    margin-left: 20px;
+    text-align: center;
+}
+
+ .rn-phone-number {
+    font-size: 22px;
+    color: #112E3B;
+    font-weight: 400;
+    margin-top: 20px;
+    font-family: serif;
+}

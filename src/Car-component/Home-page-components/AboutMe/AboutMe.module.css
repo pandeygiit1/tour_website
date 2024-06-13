@@ -1,0 +1,43 @@
+.rn-bg {
+  background-color: #fefefe;
+  overflow: hidden;
+  padding-bottom: 20px;
+}
+.rn-section-title h2 {
+  color: #526977;
+  font-family: sans-serif;
+  font-size: 35px;
+  margin: 39px 0 20px;
+  padding: 0;
+  text-align: center;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 85px;
+  /* justify-content: space-around; */
+}
+.col-lg-3 {
+  margin-right: 100px;
+  position: relative;
+  /* width: 260px; */
+}
+/* .rn-dot-feature {
+  color: #617c8d;
+  width: 300px;
+} */
+.rn-the-dot {
+  margin-top: 33px;
+  /* padding-right: 16px; */
+}
+.rn-dot-feature-info h3 {
+  font-size: 1.17rem;
+  font-weight: 600;
+  padding-bottom: 8px;
+  color: #617c8d;
+}
+.rn-dot-feature-info p {
+  text-align: justify;
+  width: 300px;
+  color: #617c8d;
+}

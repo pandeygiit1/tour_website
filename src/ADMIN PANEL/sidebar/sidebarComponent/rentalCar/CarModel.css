@@ -1,0 +1,29 @@
+.toplevelcarmodeldiv {
+  margin: 1rem;
+  padding: 1rem;
+  /* border: 1px solid; */
+}
+:root {
+  --text-color: #112e3b;
+}
+
+.generaldivcarModel {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  color: var(--text-color);
+}
+
+.carModelInput {
+  padding: 0.8rem 0.8rem;
+  margin-top: 0.4rem;
+  border-radius: 0.3rem;
+  font-size: 1rem;
+  border: 1px solid gray;
+}
+
+.carModelsubmitbtn {
+  background-color: var(--text-color);
+  color: #fff;
+  cursor: pointer;
+}

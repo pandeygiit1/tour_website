@@ -1,0 +1,142 @@
+:root {
+  --leftContainer-color: #112e3b;
+  /* --leftContainer-color : #2684ff; */
+  --label-heading-color: #42526e;
+  --backgroundColor: #eff4f5;
+}
+.textcolor {
+  /* color: var(--leftContainer-color); */
+  color: #67748b;
+  font-weight: var(--fw-semi-bold);
+  font-size: 17px;
+  font-weight: 550;
+  margin-bottom: 5px;
+}
+  
+
+.generalflexcontainer {
+  display: flex;
+  background-color: white;
+  margin: 1rem 0;
+  padding: 1.5rem;
+  border-radius: 0.3rem;
+}
+.addtourtoplevelcontainer {
+  margin: 1rem;
+  /* padding: 1rem; */
+  width: 70%;
+  /* border: 1px solid; */
+  border-radius: 0.3rem;
+  margin-top: 65px;
+}
+
+.tourInputfiled {
+  width: 100%;
+  padding: 0.8rem;
+  border-radius: 0.3rem;
+  margin-top: 1rem;
+  border: none;
+}
+
+.sumarycontainerbox {
+  width: 50%;
+  /* border: 1px dotted red; */
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+.sumarycontainertaxt {
+  height: 13rem;
+  margin: 0.3rem;
+  /* border: 3px dotted #0f0f69; */
+  border-radius: 0.3rem;
+  padding: 0.5rem;
+  border: 1px solid green;
+  font-size: 1.5rem;
+}
+.sumarycontainerbox1 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  cursor: pointer;
+  
+}
+
+.sumarycontainertaxt1 {
+  height: 13rem;
+  margin: 0.3rem;
+  border: 3px dotted #0f0f69;
+  border-radius: 0.3rem;
+  padding: 0.5rem;
+  background-color: white;
+  
+}
+
+/* input button css */
+
+.custom-file-input {
+  /* visibility: hidden;
+   */
+   display: none;
+}
+.labelcontainerimage {
+  text-align: center;
+  color: var(--leftContainer-color);
+  padding-top: 4rem;
+  position: relative;
+  border: 3px dotted green;
+}
+
+.iconssize {
+  font-size: 2rem;
+}
+.addtourpackagesubmitbtn {
+  padding: 0.8rem;
+  width: 100%;
+  margin: 1rem 0;
+  border-radius: 0.3rem;
+  font-size: 1.2rem;
+  text-align: center;
+  border: none;
+  background-color: var(--leftContainer-color);
+  color: white;
+}
+
+
+
+/* media query */
+
+@media screen  and (max-width:849px){
+          .addtourtoplevelcontainer{
+              margin: 0rem;
+              padding: 1rem;   
+              width: 100%;   
+          } 
+          .generalflexcontainer{
+                    flex-direction: column;
+          }
+          .sumarycontainerbox {
+                    width: 100%;
+          }
+          .sumarycontainerbox1 {
+                    width: 100%;
+          }
+
+}
+.ck-editor__editable_inline {
+  min-height: 200px;
+}
+
+.generalflexcontainer label {
+  color: #67748b;
+  font-weight: var(--fw-semi-bold);
+  font-size: 16px;
+  font-weight: 560;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+/*Generalcontainer-characters-counter*/
+.Generalcontainer-characters-counter{
+  text-align: end;
+}

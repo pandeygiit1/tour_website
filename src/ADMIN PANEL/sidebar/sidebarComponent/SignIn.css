@@ -1,0 +1,131 @@
+:root{
+    --leftContainer-color : #112E3B;
+    /* --leftContainer-color : #2684ff; */
+    --label-heading-color :#42526e;
+}
+
+.topContainer{
+    display: flex;
+    height: 100vh;
+}
+/*leftContainer*/
+.leftContainer{
+    background-color:var(--leftContainer-color);
+    padding: 5rem;
+    color: #fff;
+    font-size: 1.5rem;
+}
+.alx_style{
+      font-size: 3.2rem;
+      color: #14cd14;
+      margin-bottom: 110px;
+}
+.trip_style{
+    color: white;
+}
+.headdingstyle{
+    color:  rgb(255 255 255);;
+    font-size: 1.6rem;
+    margin-top: 3rem;
+    
+}
+.paragraphstyle{
+    color:  #aadaef;
+    font-size: 1.3rem;
+    margin-top: 3.5rem;
+    
+}
+/*rigthContainer*/
+
+.rigthContainer{
+   padding: 5rem;
+   width: 100vw;
+   font-size: 1.2rem;
+}
+.rigthContainerheaddingstyle{
+    color: #112E3B;
+    margin-top: 20px;
+    
+}
+.rigthContainerparagraphstyle{
+    color: gray;
+    margin-top: 10px;
+}
+.labels{
+   color:var(--leftContainer-color);
+   font-weight: 700;
+   margin-top: 30px;
+}
+.rightdivemail{
+    display: flex;
+    flex-direction: column;
+}
+.inputfiled{
+    margin: 1rem 0;
+    padding: 0.8rem;
+    border-radius: 0.3rem;
+    border: 1px solid var(--leftContainer-color) ;
+}
+.parentdiv{
+    position: relative;
+}
+
+.pass_icons{
+    position: absolute;
+    right: 1rem;
+    top: 3rem;
+    cursor: pointer;
+}
+.check_box{
+    display: flex;
+    justify-content: space-between;
+    color: var(--label-heading-color);
+    font-weight: 700;
+}
+.check_box:hover{
+    color: var(--leftContainer-color);
+}
+.forgotpassword{
+    text-decoration: none;
+    color: var(--label-heading-color);
+    font-weight: 700;
+}
+.forgotpassword:hover{
+    color: var(--leftContainer-color);
+}
+.loginbutton{
+    padding: 0.5rem;
+    background-color: #112E3B;
+    /* background-color: #2663b3; */
+    color: #fff;
+    width: 100%;
+    margin-top: 1rem;
+    border-radius: 0.3rem;
+    font-size: 1.5rem;
+    border: none;
+    cursor: pointer;
+}
+.backToLoginbox{
+    text-decoration: none;
+    color: var(--label-heading-color);
+    font-weight: 700;
+    
+}
+.backToLoginbtn{
+    text-decoration: none;
+    color: var(--label-heading-color);
+    font-weight: 700;
+    margin-top: 5 0px;
+    
+}
+
+@media screen and (max-width : 690px) {
+    .topContainer{
+        display: flex;
+       flex-direction: column;
+    }
+    .loginbutton{
+        font-size: 1rem;
+    }
+}
+

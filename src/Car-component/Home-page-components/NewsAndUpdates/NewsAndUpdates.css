@@ -1,0 +1,53 @@
+.News-section {
+  background-color: rgb(238, 242, 245);
+  padding-top: 20px;
+  padding-bottom: 25px;
+  overflow: hidden;
+}
+.Newscontainer {
+  width: 100%;
+  /* margin-right: auto;
+    margin-left: auto; */
+  padding-left: 50px;
+}
+
+.Popular-section-title {
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  margin-bottom: 50px;
+}
+.News-title {
+  color: rgb(34, 33, 33);
+  font-size: 34px;
+  font-family: "Poppins";
+  padding-top: 25px;
+}
+.News-title-Dece {
+  font-family: "Poppins";
+  font-size: 16px;
+  margin-top: 10px;
+  line-height: 1.8;
+  font-weight: 400;
+  padding-left: 80px;
+  padding-right: 80px;
+  color: #4a5f6d;
+}
+
+.box {
+  padding-left: 60px;
+  padding-right: 10px;
+}
+
+@media screen and (max-width: 960px) {
+  .News-title {
+    color: rgb(34, 33, 33);
+    font-size: 35px;
+    padding-top: 20px;
+    font-weight: 1100;
+  }
+  .box {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}

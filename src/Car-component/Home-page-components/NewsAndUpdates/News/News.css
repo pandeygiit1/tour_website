@@ -1,0 +1,81 @@
+.Newscard{
+    max-width: 460px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    overflow: hidden;
+    box-shadow: 0 10px 45px -5px rgba(151, 179, 199, 0.15);
+    transition: 0.6s ;
+    animation: ease-in;
+   
+  }
+  
+  @media only screen and (max-width: 400px) {
+     .Newscard{
+      margin-left: -35px;
+    }
+  }
+  .Newscard:hover{
+    transform: translateY(-25px);
+    box-shadow: 0 10px 45px 0px rgba(132, 159, 179, 0.15);;
+  }
+  .NewsCardCardActions{
+    text-align: center;
+    padding-left: 110px;
+    padding-right: 90px;
+    padding-bottom: 22px;
+  }
+  .NewsBlogbtn{
+    display: flex;
+    padding: 8px 20px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    color: #fff;
+    cursor: pointer;
+    background-color: #37a81a; 
+  }
+  .NewsBlogbtn:hover{
+    padding: 6px 18px;
+    transition: all 0.3s ease-out;
+    background-color: transparent;
+    color: #37a81a;
+    border-radius: 4px;
+    border: 2px solid #37a81a;
+    transition: all 0.3s ease-out;
+  
+  }
+  .newsLink{
+    text-decoration: none;
+  }
+  .icon{
+      margin-right: 20px;
+      text-align: justify;
+      font-size: 16px;
+  }
+  .textallin{
+   text-align: left;
+   padding: 10px;
+  }
+  .callbuttonpackage{
+    display: flex;
+    padding: 8px 20px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    color: #fff;
+    cursor: pointer;
+    background-color: #37a81a;
+    }
+  .callbuttonpackage:hover {
+    padding: 6px 18px;
+    transition: all 0.3s ease-out;
+    background-color: transparent;
+    color: #37a81a;
+    border-radius: 4px;
+    border: 2px solid #37a81a;
+    transition: all 0.3s ease-out;
+    }
+  
+  

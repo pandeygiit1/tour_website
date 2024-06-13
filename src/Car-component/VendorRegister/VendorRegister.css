@@ -1,0 +1,46 @@
+/* -------Booking Info css ------- */
+.Textbookingcompanyinfo{
+    color: #ebf1f5;
+    font-size: 14px;
+    font-family: sans-serif;
+    padding: 10px;
+    margin-top: -10px;
+    padding-left: 25px;
+  }
+
+.Textbookingcompanyinfo:hover{
+    color: #28a745;
+    transition: all ease-in-out;
+}
+
+.textbookingcompanyinfo{
+  color: #6c757d;
+  font-size: 20px;
+  margin-top: -5px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Bookingfromimage{
+  width: 430px;
+  height: 500px;
+  background-size: cover;
+}
+
+@media screen and (max-width: 960px){
+  .Bookingfromimage{
+    width: 310px;
+    margin-top: -20px;
+    height: 200px;
+  }
+  
+}
+.vendor-spinner {
+  width: 50px;
+  height: 50px;
+  border: 3px solid;
+  border-color: #28a745 transparent #28a745 transparent;
+  border-radius: 50%;
+  animation: spin-anim 1.2s linear infinite;
+  margin-left: 570px;
+  margin-bottom: 20px;
+}

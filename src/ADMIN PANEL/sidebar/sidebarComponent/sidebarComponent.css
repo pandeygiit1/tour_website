@@ -1,0 +1,121 @@
+.userbox {
+  display: flex;
+  margin-bottom: 10px;
+}
+.userprofile {
+  border: 2px solid greenyellow;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-left: 11px;
+  margin-top: 6px;
+  cursor: pointer;
+}
+
+.leftcontaineruserImage {
+  width: 50px;
+  height: 50px;
+  margin: 1rem 0.2rem 0.3rem 1rem;
+  border-radius: 50%;
+  border: 4px solid #152d5d;
+}
+.leftcontaineruserImagetext {
+  color: gray;
+  margin-left: 9px;
+  margin-top: 10px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.leftcontaineruserImagetext p {
+  font-size: 0.8rem;
+  margin-top: -7px;
+}
+
+.leftcontaineruserImagetext h3 {
+  font-size: 1rem;
+  font-weight: 800;
+}
+
+.artical {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.artical {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.articaltext {
+  width: 8vw;
+  /* color: gray;
+  font-size: 0.8rem;
+  margin-left: 2px;
+  font-weight: 600; */
+}
+
+.dropdowncategory {
+  border: none;
+  background: blue;
+  color: white;
+  font-weight: 900;
+  font-size: 18px;
+  border-radius: 7px;
+  margin-left: 16px;
+  margin-bottom: 10%;
+  width: 100%;
+}
+
+.componentsideline {
+  width: 80%;
+}
+.componentsideline1 {
+  width: 60%;
+}
+.componentsidelinetour {
+  width: 60%;
+}
+.leftcontainerlink {
+  font-size: 17px;
+}
+.leftcontainerlinkdiv {
+  margin-left: 10px;
+  font-weight: 600;
+}
+
+.active {
+  color: #00d231;
+}
+.leftcontainerlink-dashboard {
+  margin-top: 10px;
+  margin-bottom: 6px;
+  font-weight: 800;
+}
+@media screen and (max-width: 1300px) {
+  .leftcontaineruserImagetext p {
+    font-size: 10px;
+  }
+  .leftcontaineruserImagetext h3 {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 1111px) {
+  .leftcontaineruserImagetext {
+    margin-top: 15px;
+  }
+  .leftcontaineruserImagetext p {
+    font-size: 7px;
+  }
+  .leftcontaineruserImagetext h3 {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 980px) {
+  .leftcontaineruserImagetext {
+    margin-top: 15px;
+  }
+  .leftcontaineruserImagetext h3 {
+    font-size: 10px;
+  }
+}

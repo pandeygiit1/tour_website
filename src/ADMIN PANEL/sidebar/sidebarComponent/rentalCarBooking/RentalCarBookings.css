@@ -1,0 +1,65 @@
+
+.topLevelboxrentalcarBooking{
+          margin: 0.5rem;
+          padding: 0.5rem;
+          /* border: 1px solid; */
+}
+
+.selectContainerRentalCar{
+          width: 100%;
+          display: flex;
+          /* border: 1px solid; */
+}
+
+.leftSelectRental{
+          width: 50%;
+          margin: 1.5rem 0.2rem 0.5rem 0rem;
+          padding: 0.5rem 0.5rem;
+          border: 0.5px solid #dee2e6;
+          border-radius: 0.3rem;
+}
+
+.RigthSelectRental{
+          width: 50%;
+    margin: 1.5rem 0 0.5rem 0.2rem;
+    padding: 0.5rem 0.5rem;
+    border-radius: 0.3rem;
+    border: .5px solid #dee2e6;
+}
+
+.costomermobilenoinput{
+          width: 100%;
+    margin: 1.5rem 0 .5rem 0;
+    padding: 0.3rem 0.5rem;
+    border-radius: 0.3rem;
+    border: .5px solid #dee2e6;
+}
+
+.generalbtnrentalcarbooking{
+          margin: 0.5rem 0.2rem 0.5rem 0;
+          padding: .5rem;
+          background: #0d6efd;
+          color: white;
+          border: none;
+          border-radius: 0.3rem;
+          font-size: 1rem;
+}
+.generalbtnrentalcarbookingReset{
+          margin: 0.5rem 0.2rem 0.5rem 0;
+          padding: .5rem;
+          background: #dc3545;
+          color: white;
+          border: none;
+          border-radius: 0.3rem;
+}
+@media screen and (max-width : 500px) {
+          .selectContainerRentalCar{
+                    flex-direction: column;
+          }
+          .leftSelectRental{
+                    width: 100%;
+          }
+          .RigthSelectRental{
+                    width: 100%;
+          }
+}

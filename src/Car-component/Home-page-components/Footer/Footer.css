@@ -1,0 +1,135 @@
+.footer {
+  background-color: #112e3b;
+  padding: 60px 0 0px;
+}
+/* .footer-container {
+  padding: 60px 0 0px;
+  color: #f1f5f7;
+} */
+/* .container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+} */
+.footer-container-row {
+  display: flex;
+  justify-content: space-around;
+}
+.containerrowmd4 {
+  min-height: 1px;
+  padding-left: 40px;
+  position: relative;
+  width: 100%;
+}
+.AboutUsSection {
+  margin-bottom: 40px;
+  max-width: 370px;
+}
+.AboutUsSectionLink {
+  margin-bottom: 40px;
+  max-width: 280px;
+  text-align: start;
+}
+.AboutUsSectioninfo {
+  margin-bottom: 40px;
+  max-width: 350px;
+  text-align: start;
+}
+@media screen and (max-width: 950px) {
+  .footer-container-row {
+    display: block;
+  }
+  .AboutUsSection {
+    min-height: 1px;
+    padding-left: 40px;
+    position: relative;
+    width: 100%;
+  }
+}
+
+.titlefooterh {
+  margin-left: 43px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 26px;
+  /* padding-bottom: 20px; */
+  font-family: "Poppins", sans-serif;
+  padding-bottom: 20px;
+}
+.paregraffooter {
+  color: #f7f3f3;
+  font-size: 16px;
+  padding-top: 44px;
+  line-height: 1.9;
+  margin-left: 2px;
+  padding-bottom: 15px;
+  font-family: "Poppins", sans-serif;
+}
+
+.ullinkfooter {
+  list-style-type: none;
+  display: flex;
+}
+.ullinkfooter i {
+  color: #fff;
+  font-size: 20px;
+  padding: 14px;
+}
+
+.rn-widget-content-LinK {
+  display: flex;
+}
+.col-66666 {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  /* padding-right: 2px; */
+  padding-left: 41px;
+  list-style-type: none;
+}
+.col-66666 a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+  line-height: 1.9;
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+}
+
+.col-66666 li {
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+  line-height: 1.9;
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+}
+.lnr {
+  color: #00d231;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.rn-footer-copyright {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  color: #dce4e6;
+  padding: 25px 0;
+}
+@media (max-width: 767.98px) {
+  .rn-footer-copyright {
+    text-align: center;
+  }
+}
+.align-items-center {
+  align-items: center !important;
+}
+.col-66666 p {
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+  line-height: 1.9;
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+}

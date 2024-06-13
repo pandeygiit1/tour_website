@@ -1,0 +1,175 @@
+:root {
+  --leftContainer-color: #112e3b;
+  /* --leftContainer-color : #2684ff; */
+  --label-heading-color: #42526e;
+  --backgroundColor: #eff4f5;
+}
+
+.leftcontainerbox {
+  width: 16vw;
+  height: 100vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  position: sticky;
+  top: 0px;
+  right: 0px;
+}
+#imglogo {
+  margin: 0.4rem;
+  padding: 1rem;
+  background-color: var(--leftContainer-color);
+}
+
+.rigthcontainerbox {
+  background-color: #fff;
+  width: 84vw;
+  /* border: 1px solid gray; */
+  background-color: #f4f6fa;
+  overflow: auto;
+}
+
+.sidebarcontainer {
+  display: flex;
+}
+@media screen and (max-width: 900px) {
+  .sidebarcontainer {
+    flex-direction: column;
+  }
+  .leftcontainerbox {
+    width: 100%;
+    height: auto;
+  }
+  .rigthcontainerbox {
+    width: 100%;
+  }
+}
+
+.leftcontainerlink {
+  text-decoration: none;
+  color: var(--leftContainer-color);
+  margin-left: 1rem;
+  display: flex;
+  align-items: center;
+}
+.leftcontainderli {
+  margin: 0.5rem;
+  list-style: none;
+  margin-top: -3%;
+}
+.leftcontainderli:hover {
+  background-color: var(--backgroundColor);
+}
+.leftcontainerlink-home {
+  margin-left: 1rem;
+}
+.leftcontainerlink-dashboard {
+  margin-left: 0rem;
+}
+
+/* deshbord css */
+/* .userbox{
+  display: flex;
+}
+.leftcontaineruserImage{
+  width: 50px;
+  height: 50px;
+  margin: 1rem 0.2rem 0.3rem 1rem;
+  border-radius: 50%;
+  border: 4px solid #152d5d;
+ 
+}
+.leftcontaineruserImagetext{
+  color: gray;
+}
+
+.artical{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.artical {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.articaltext{
+  color: gray;
+  font-size:.8rem ;
+  margin-left: 2px;
+}
+
+.componentsideline{
+  width: 80%;
+}
+.componentsideline1{
+  width: 60%;
+}
+.componentsidelinetour{
+width: 60%;
+}
+
+.active{
+  color: #00D231;
+} */
+
+/* Hemberger css */
+
+.Hembergericons {
+  display: none;
+  font-size: 2.5rem;
+  padding-top: 7px;
+}
+
+@media screen and (max-width: 900px) {
+  .Hembergericons {
+    display: block;
+  }
+  .responsivetopbar {
+    display: flex;
+    background-color: var(--leftContainer-color);
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    padding: 0.5rem;
+  }
+
+  .Opensidebar {
+    display: none;
+  }
+  .Closesidebar {
+    display: block;
+  }
+}
+
+/* Signout btn css */
+.logoutuser {
+  /* position: fixed; */
+  /* bottom: 20px;
+  left: 0px; */
+  border: 1px solid gray;
+  display: flex;
+  align-items: center;
+  padding: 0.2rem;
+  margin: 0.5rem;
+  border-radius: 0.3rem;
+  width: 63%;
+  /* margin-left: 1.6rem; */
+  padding-right: 1rem;
+  cursor: pointer;
+  color: var(--leftContainer-color);
+}
+.signouticon {
+  margin-left: 2.3rem;
+}
+.logoutuser:hover {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.signoutbtn {
+  border: none;
+  margin-left: 0.2rem;
+  background: white;
+  cursor: pointer;
+  font-weight: 700;
+}

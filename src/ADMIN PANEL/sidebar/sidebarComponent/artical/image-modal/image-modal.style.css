@@ -1,0 +1,359 @@
+.wrapp-container{
+    height: 100%;
+    width: 100%;
+    position:fixed;
+    top:0px;
+    left:0%;
+    background-color: white;
+    opacity: 0.4;
+    cursor: pointer;
+    z-index:2;
+    
+    
+}
+.btnStyle{
+    border: none;
+    background-color: green;
+    color: white;
+    padding: 8px;
+    margin-right: 2px;
+    margin-left: 2px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+
+}
+.btnStyle:hover{
+    background-color: rgb(25, 56, 25);
+}
+
+.imageLibrary-container{
+    height:95vh;
+    width:89%;
+    border-radius: 5px;
+    border: 2px solid rgb(150, 149, 149);
+    
+    position:fixed;
+    top:20px;
+    left:50%;
+    transform:translate(-50%);
+    background-color:white;
+    
+    z-index: 2;
+    overflow-y:scroll ;
+}
+.imageTextStyleOuter{
+    height: 75px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    border-bottom: 2px solid rgb(150, 148, 148);
+    
+}
+.imageTextStyleInner{
+
+   height: 75px;
+   width: 120px;
+   color: green;
+   font-size: 1.7rem;
+   border-bottom: 4px solid green ;
+   padding-top: 10px;
+
+   
+   
+
+}
+.imageLibrary-topBtn{
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+     color: green;
+     font-size: 1.5rem;
+     font-weight: 700;
+     
+     margin-top: 5px;
+     padding: 8px;
+
+}
+.imageLibrary-main-conatiner{
+       height: 650px;
+       border-top: 2px solid rgb(150, 148, 148);
+       border-bottom: 2px solid rgb(150, 148, 148);
+       margin-top: 10px;
+        background-color: white;
+       
+      
+}
+.mainTopBox{
+    border-bottom: 2px solid rgb(150, 149, 149);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+  
+
+}
+.mainTopBox-input{
+    height: 60px;
+    width: 350px;
+    font-size: 1.2rem;
+    border-left:2px solid rgb(150, 149, 149) ;
+    text-align: center;
+
+}
+.inputStyle{
+    border: none;
+    width: 300px;
+    color: rgb(67, 63, 63);
+    margin-top: 10px;
+    margin-left: 15px;
+    
+    
+}
+.imageLibraryData{
+    height: 550px;
+    width: 85vw;
+    margin: 20px;
+    display: flex;
+    flex-direction:row ;
+    
+    
+}
+
+
+.imagesBox{
+    height: 100%;
+    width: calc(100% - 20vw);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    
+
+}
+.imageSelectBox{
+    height: 70vh;
+    width: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    flex-direction: column;
+    padding-left: 10px;
+    
+}
+
+.imageLibraryItem{
+    height:24vh ;
+    width:15.2vw ;
+    margin: 5px;
+}
+.imageLibraryItem-img{
+    height: 135px;
+    width:145px;
+    border-radius: 8px;
+}
+.imageLibraryItem-text{
+    height:5vh ;
+    width: 14vw;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imageLibrary-footer-container{
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+}
+/* UploadImage css*/
+.UploadImage-main-conatiner{
+    height: 490px;
+    border-top: 2px solid rgb(150, 148, 148);
+    margin-top: 10px;
+   
+    display: flex;
+    flex-direction: column;
+   
+}
+.main-conatiner-top-box{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid rgb(150, 142, 142);
+    
+
+}
+.main-conatiner-bottom-box{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-conatiner-uploadbox{
+    height: 42vh;
+    width: 35vw;
+    border: 3px dotted green;
+    border-radius: 0.3rem;
+    
+    background-color: white;
+  color: var(--leftContainer-color);
+  padding-top: 4rem;
+  cursor: pointer;
+  
+  
+
+  }
+
+  .UploadImage-text-headdingStyle{
+    font-size: 1.5rem;
+    color: black;
+    margin: 10px;
+   
+  }
+
+
+
+.top-box-upload{
+    height: 60px;
+    width: 240px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    border-bottom: 5px solid green;
+    margin-right: 5px;
+    padding-top: 15px;
+    color: rgb(150, 134, 134);
+}
+.top-box-unupload{
+    height: 60px;
+    width: 240px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-right: 5px;
+    padding-top: 15px;
+    color: rgb(148, 131, 131);
+}
+.top-box-spanStyle-upload{
+    
+   padding-top: 6px;
+   padding-bottom: 6px;
+   padding-left: 12px;
+   padding-right: 12px;
+   margin: 10px;
+
+    border-radius: 50%;
+    color: white;
+    background-color:green ;
+}
+.top-box-spanStyle-unupload{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin: 10px;
+     border-radius: 50%;
+     color: white;
+     background-color:rgb(150, 137, 137) ;
+}
+.main-conatiner-infobox{
+    
+     display: flex;
+    flex-direction: column;
+     align-items: center;
+     column-gap: 2rem;
+}
+.infobox-img img{
+    height: 200px;
+    width: 240px;
+     margin-top: 10px;
+     border: 2px solid rgb(164, 156, 156);  
+     border-radius: 10px;
+     margin-bottom: 1rem
+}
+
+.infobox-input{
+   width: 100px;
+   margin-bottom: 1rem
+}
+.infobox-wrapper{
+    width: 400px;
+    margin-bottom: 1rem
+}
+.infobox-btn{
+     font-size: 1.5rem;
+     color: white;
+     background-color: rgb(46, 187, 46);
+     border: none;
+     padding: 10px;
+     border-radius: 5px;
+
+}
+.infobox-btn:hover{
+    font-size: 1.5rem;
+    color: white;
+    background-color: rgb(13, 43, 13);
+
+}
+.infobox-para{
+    font-size: 1rem;
+    color: rgb(149, 130, 130);
+    margin: 10px;
+}
+
+/*selectToUploadImg*/
+
+.imageRemoveBtn{
+    font-size: 1.5rem;
+    cursor: pointer;
+   
+}
+.selectImage{
+     height: 200px;
+     width: 290px;
+    
+     display: flex;
+     justify-content: space-between;
+     align-items: start;
+
+}
+.selectImage img{
+    border-radius: 10px;
+    border: 2px solid black;
+    margin: 5px;
+}
+.imageDetailsInput{
+    height: 100px;
+    width: 290px;
+   
+}
+.imageDetailsInput-input{
+    color:#000000;
+    height: 20px;
+    width: 100%;
+    font-size: 1.3rem;
+    
+    
+}
+.imageDetails{
+    height: 100px;
+    width: 290px;
+   
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: start;
+    
+}
+
+.imageDeleteBtn{
+    height: 70px;
+    width: 290px;
+    color: red;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 1.5rem;
+    cursor: pointer;
+}

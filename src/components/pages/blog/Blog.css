@@ -1,0 +1,75 @@
+.pagination-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.blogsidebar-buttons {
+  padding: 9px 15px 9px 20px;
+  background: #304f47;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 12px;
+  color: #fff;
+  margin-top: 5px;
+}
+
+.blogcss {
+  position: relative;
+  bottom: 42px;
+}
+.Blogscrollbar {
+  height: 700px;
+  overflow-y: scroll; /* Use "scroll" instead of "auto" to always show the scrollbar */
+  padding: 7px;
+  /* Optional: Customize scrollbar appearance */
+  scrollbar-width: thin; /* For Firefox */
+  /* scrollbar-color: #888 #eee; For Firefox */
+
+  /* Optional: Customize scrollbar appearance for WebKit browsers */
+}
+.Blogscrollbar::-webkit-scrollbar {
+  width: 5px;
+  height: 200px;
+}
+
+.Blogscrollbar::-webkit-scrollbar-thumb {
+  background-color: orange;
+  cursor: pointer;
+  height: 200px;
+}
+.Blogscrollbar::-webkit-scrollbar-track {
+  background-color: grey;
+}
+
+.blog-detail-tourpackage {
+  position: relative;
+  top: 45px;
+}
+
+.card-height {
+  height: 381px;
+}
+
+.blogdetails-content {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.title-sidebar {
+  height: 100px;
+}
+.button-sidebar {
+  height: 80px;
+}
+.img-sidebar {
+  height: 181px;
+}
+
+.nav-btnn {
+  border: 1px solid black;
+  height: 40px;
+  padding: 0px 3px;
+  background-color: grey;
+  color: orange;
+}

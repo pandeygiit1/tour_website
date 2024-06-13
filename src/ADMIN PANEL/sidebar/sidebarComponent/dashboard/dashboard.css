@@ -1,0 +1,50 @@
+.dashboard {
+  display: grid;
+  grid-template-columns: auto auto auto; /* Updated to display 3 cards in a row with the last card centered */
+  gap: 20px;
+  padding: 30px;
+}
+
+.card {
+  width: 400px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.card:nth-child(1) { background-color: #FFC0CB; } /* Total Article - Pink */
+.card:nth-child(2) { background-color: #87CEEB; } /* Total Tour Package - Sky Blue */
+.card:nth-child(3) { background-color: #FFD700; } /* Total Car Rental Vendor - Gold */
+.card:nth-child(4) { background-color: #90EE90; } /* Total Tour Package Vendor - Light Green */
+.card:nth-child(5) { background-color: #FFA07A; } /* Latest Car Rental Bookings - Light Salmon */
+.card:nth-child(6) { background-color: #BA55D3; } /* Latest Tour Package Bookings - Medium Orchid */
+.card:nth-child(7) { background-color: #FF6347; } /* Total Car Rental Buy Leads - Tomato */
+.card:nth-child(8) { background-color: #00FFFF; } /* Total Tour Package Buy Leads - Cyan */
+.card:nth-child(9) { background-color: #FFDAB9; } /* Total Revenue - PeachPuff */
+
+/* Additional styles for better visual appeal */
+.dashboardContainer{
+  margin: 30px;
+  background-color:white;
+  border-radius: 1%;
+
+}
+.dashboard {
+  color: white;
+}
+
+.card {
+
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+ 
+.card:hover {
+  transform: scale(1.05);
+}

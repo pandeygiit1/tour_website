@@ -1,0 +1,62 @@
+.addRentaltopleveldiv {
+  margin: 1rem;
+  /* border: 1px solid; */
+}
+.addRentalcarheading {
+  margin-left: 1rem;
+  font-weight: 700;
+}
+
+.inputcontainer {
+  /* margin: 1rem; */
+  padding: 1rem;
+  /* border: 1px solid; */
+  display: flex;
+  justify-content: space-between;
+  /* flex-direction: column; */
+}
+.addrentalinputcontainer {
+  display: grid;
+  width: 48%;
+}
+.addrentalinputhaeding {
+  /* color: #67748b; */
+  font-weight: 700;
+}
+
+.addrentalinput {
+  padding: 0.8rem;
+  border-radius: 0.3rem;
+  /* border: 1px solid gray; */
+  /* border: 2px solid #EF6C00; */
+  border: 2px solid green;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 0.4rem;
+}
+
+.addRentalinputbtn {
+  padding: 0.8rem;
+  border-radius: 0.3rem;
+  /* border: 1px solid gray; */
+  border: none;
+  font-size: 1rem;
+  margin-top: 0.4rem;
+  cursor: pointer;
+  background-color: #112e3b;
+  color: white;
+  width: 100%;
+}
+
+@media screen and (max-width: 900px) {
+  .inputcontainer {
+    display: contents;
+  }
+  .addrentalinputcontainer {
+    width: 100%;
+    margin-top: 1rem;
+  }
+  .addRentalinputbtn {
+    margin-top: 1rem;
+  }
+}
